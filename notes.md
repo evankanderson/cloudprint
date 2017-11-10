@@ -16,10 +16,10 @@
    34  curl "https://www.google.com/cloudprint/list" -H "Authorization: Bearer TOKEN" -d "proxy=testme"
 
 # Get printer details
-   38  curl "https://www.google.com/cloudprint/printer" -H "Authorization: Bearer TOKEN" -d "proxy=testme&printerid=3385b1f3-6465-6ada-5c8f-6f4bdbc1c914"
+   38  curl "https://www.google.com/cloudprint/printer" -H "Authorization: Bearer TOKEN" -d "proxy=testme&printerid=PRINTERID"
 
 # Attempt to fetch a print job
-   39  curl "https://www.google.com/cloudprint/fetch" -H "Authorization: Bearer TOKEN" -d "proxy=testme&printerid=3385b1f3-6465-6ada-5c8f-6f4bdbc1c914"
+   39  curl "https://www.google.com/cloudprint/fetch" -H "Authorization: Bearer TOKEN" -d "proxy=testme&printerid=PRINTERID"
 
 # Update parameters
-   40  curl "https://www.google.com/cloudprint/update" -H "Authorization: Bearer TOKEN" -d "proxy=testme&printerid=3385b1f3-6465-6ada-5c8f-6f4bdbc1c914&gcp_version=2.0&content_types=application/pdf"
+   40  curl "https://www.google.com/cloudprint/update" -H "Authorization: Bearer TOKEN" -d "proxy=testme&printerid=PRINTERID&gcp_version=2.0&content_types=application/pdf"
