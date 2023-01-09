@@ -4,8 +4,8 @@
   "description": "Node server for cloudprint",
   "main": "index.js",
   "dependencies": {
-    "firebase-admin": "^5.4.3",
-    "firebase-functions": "^0.7.2",
+    "firebase-admin": "^11.4.1",
+    "firebase-functions": "^4.1.1",
     "googleapis": "^39.1.0",
     "request-promise-native": "^1.0.5"
   },
